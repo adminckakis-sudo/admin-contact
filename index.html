@@ -172,9 +172,12 @@
     }
 
     .links{
-      display:grid;
-      gap: 10px;
+      display:flex;
+      flex-direction: row;
+      gap: 12px;
       margin-top: 10px;
+      flex-wrap: wrap;
+      align-items: stretch;
     }
 
     .link-item{
@@ -250,7 +253,7 @@
 
     <main>
       <section class="card">
-        <div class="section-title"><span class="dot"></span> Data Diri</div>
+        <div class="section-title"><span class="dot"></span> <b>DATA DIRI</b></div>
 
         <div class="profile">
           <div class="avatar">
@@ -285,67 +288,89 @@
               </div>
             </div>
 
-            <div class="content-block">
-              <div class="section-note">Tentang Saya</div>
-              <p class="text-para">
-Perkenalkan nama saya Wirahadi Syahputra. Saya adalah seorang Masinis Pertama di UPT Crew KA Kisaran. Di sini saya bertugas sebagai administrator dari dashboard UPT Crew KA Kisaran. Walaupun bekerja sebagai seorang Masinis, saya juga merupakan mahasiswa Universitas Terbuka jurusan Sistem Informasi yang memiliki ketertarikan cukup kuat di dunia komputer, jaringan, dan IT. Oleh sebab itu, saya tertarik untuk mengembangkan project dashboard ini bersama KUPT saya.
-Ini merupakan website pertama saya buat dan kembangkan yang dibantu melalui Google Sites. Jika memiliki kekurangan, saya mohon maaf. Saya menerima kritik dan saran atas pekerjaan saya tersebut.
-              </p>
-            </div>
+          </div>
+        </div>
 
-            <div class="content-block">
-              <div class="section-note">Kontak</div>
-              <div class="links">
-                <div class="link-item">
-                  <div class="left">
-                    <div class="pill-icon" aria-hidden="true">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16v16H4z" opacity="0"/>
-                        <path d="M4 8l8 5 8-5"/>
-                        <path d="M4 8v10h16V8"/>
-                      </svg>
-                    </div>
-                    <div>
-                      <strong>74258@kai.id</strong>
-                      <span>Email corporate</span>
-                    </div>
+        <div style="margin-top: 14px;">
+          <div class="section-title" style="margin-bottom: 10px;"><span class="dot"></span> <b>Tentang Saya</b></div>
+
+          <div class="card" style="box-shadow:none;">
+            <p class="text-para" style="margin:0;">
+Perkenalkan, saya Wirahadi Syahputra, seorang Masinis Pertama di UPT Crew KA Kisaran yang dipercaya sebagai administrator dan pengembang Dashboard UPT Crew KA Kisaran.
+
+Selain menjalankan tugas sebagai masinis, saya juga merupakan mahasiswa Program Studi Sistem Informasi Universitas Terbuka. Ketertarikan saya terhadap dunia teknologi informasi, pengolahan data, jaringan komputer, dan pengembangan sistem mendorong saya untuk terus belajar dan mengembangkan solusi digital yang dapat memberikan manfaat bagi lingkungan kerja.
+
+Dashboard ini dibangun sebagai media informasi dan visualisasi data yang bertujuan mendukung pengambilan keputusan, meningkatkan aksesibilitas informasi, serta membantu penyajian data yang lebih efektif dan mudah dipahami.
+
+Website ini dikembangkan menggunakan Google Sites dan berbagai layanan pendukung lainnya sebagai bagian dari upaya digitalisasi informasi di lingkungan UPT Crew KA Kisaran.
+
+Saya sangat terbuka terhadap kritik, saran, maupun masukan yang membangun guna meningkatkan kualitas dashboard ini di masa mendatang.
+
+Terima kasih atas kunjungan dan dukungan Anda.
+
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top: 18px;">
+          <div class="section-title" style="margin-bottom: 10px;"><span class="dot"></span> <b>KONTAK</b></div>
+
+          <div class="card" style="box-shadow:none;">
+            <div class="links" style="margin-top:0;">
+              <div class="link-item">
+                <div class="left">
+                  <div class="pill-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16v16H4z" opacity="0"/>
+                      <path d="M4 8l8 5 8-5"/>
+                      <path d="M4 8v10h16V8"/>
+                    </svg>
                   </div>
-                </div>
-
-                <div class="link-item">
-                  <div class="left">
-                    <div class="pill-icon" aria-hidden="true">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16v16H4z" opacity="0"/>
-                        <path d="M4 8l8 5 8-5"/>
-                        <path d="M4 8v10h16V8"/>
-                      </svg>
-                    </div>
-                    <div>
-                      <strong>hadiwira745@gmail.com</strong>
-                      <span>Email pribadi</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="link-item">
-                  <div class="left">
-                    <div class="pill-icon" aria-hidden="true">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8"/>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                      </svg>
-                    </div>
-                    <div>
-                      <strong>@wirasyahptraa</strong>
-                      <span>Instagram</span>
-                    </div>
+                  <div>
+                    <strong>74258@kai.id</strong>
+                    <span>Email corporate</span>
                   </div>
                 </div>
               </div>
-              <div class="subtitle" style="margin-top:10px;"></div>
+
+              <div class="link-item">
+                <div class="left">
+                  <div class="pill-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16v16H4z" opacity="0"/>
+                      <path d="M4 8l8 5 8-5"/>
+                      <path d="M4 8v10h16V8"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>hadiwira745@gmail.com</strong>
+                    <span>Email pribadi</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="link-item">
+                <div class="left">
+                  <div class="pill-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8"/>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>@wirasyahptraa</strong>
+                    <span>Instagram</span>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <div class="subtitle" style="margin-top:10px;">*Kontak ditampilkan sebagai teks, tanpa link pop-up.</div>
+          </div>
+        </div>
+
+
           </div>
         </div>
       </section>
